@@ -7,8 +7,8 @@ const Message = ({message, author}) => (
   </p>
 )
 
-Message.PropTypes = {
-  message: PropTypes.string.isRequired
+Message.propTypes = {
+  message: PropTypes.string.isRequired,
   author: PropTypes.string.isRequired
 }
 
